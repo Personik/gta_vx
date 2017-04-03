@@ -1,0 +1,52 @@
+box-sizing: border-box;
+
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+body {
+  
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;  
+}
+
+a {
+  color: #00B7FF;
+}
+
+header{
+  background: gray;
+  color: white;
+  padding: 10px;
+}
+
+main{
+  background: white;
+}
+
+.tagging{
+  
+  width: 30%;
+  float: left;    
+}
+
+.discovery{
+
+  width:70%;
+  float: right;   
+}
+
+
+footer{  
+  background: gray;
+  color: white;
+  padding: 8px;
+  font-family: 'Ubuntu', sans-serif;  
+}
+
+
+
+
